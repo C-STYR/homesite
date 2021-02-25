@@ -1,0 +1,32 @@
+{
+  "name": "homesite",
+  "version": "1.0.0",
+  "description": "The personal website of Cole Styron.  If you're looking for a simple template, this should be easily modifiable. It's built with next.js.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C-STYR/homesite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C-STYR/homesite/issues"
+  },
+  "homepage": "https://github.com/C-STYR/homesite#readme",
+  "dependencies": {
+    "next": "^10.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "@types/react": "^17.0.2",
+    "typescript": "^4.2.2"
+  }
+}

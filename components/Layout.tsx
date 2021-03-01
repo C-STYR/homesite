@@ -14,7 +14,9 @@ const Layout = ({children, home}:
       <Meta />
       <Nav />
       <div className="">
-        <main className=""/>
+        <main className="">
+            {children}
+        </main>
       </div>
     </>
   )

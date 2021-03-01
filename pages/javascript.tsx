@@ -1,4 +1,5 @@
 import Meta from '../components/Meta'
+import Layout from '../components/Layout'
 
 const EasterEgg2 = ({message1, message2}) => {
 
@@ -10,6 +11,8 @@ const EasterEgg2 = ({message1, message2}) => {
   console.log("The second easter egg is much harder to find - but don't overreact - you just need the right tools.")
 
   return (
+  
+  
   <div>
     <Meta title="JavaScript"/>
     <h1>JavaScript</h1>

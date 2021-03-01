@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 import Link from 'next/link'
 
 const Home = () => (
-  <Layout>
+
     <div>
       <Meta title="Index"/>
       <h1>Hello, there.</h1>
@@ -18,7 +18,7 @@ const Home = () => (
         without interest. Perhaps you'd like to give it a try?
       </p>
     </div>
-  </Layout>
+
 )
 
 export default Home

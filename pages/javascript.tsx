@@ -1,5 +1,5 @@
 import Meta from '../components/Meta'
-import Layout from '../components/Layout'
+import styles from '../styles/javascript.module.css'
 
 const EasterEgg2 = ({message1, message2}) => {
 
@@ -13,7 +13,7 @@ const EasterEgg2 = ({message1, message2}) => {
   return (
   
   
-  <div>
+  <div className={styles.list}>
     <Meta title="JavaScript"/>
     <h1>JavaScript</h1>
     <p>
@@ -23,9 +23,9 @@ const EasterEgg2 = ({message1, message2}) => {
     <p>
       If you'd like to learn JavaScript, here are some resources that will give you a solid foundation.
     </p>
-    <ul>
+    <ul >
       <li>
-        <a href="https://www.codecademy.com/learn/introduction-to-javascript">a free online course.</a>
+        <a href="https://www.codecademy.com/learn/introduction-to-javascript">a free online course</a>
       </li>
       <li>
         <a href="https://csx.codesmith.io/login">exercises and algorithms to hone your skills</a>
@@ -37,9 +37,11 @@ const EasterEgg2 = ({message1, message2}) => {
         <a href="http://www.pythontutor.com/javascript.html#mode=edit">a way to visualize your code as it's running</a>
       </li>
     </ul>
+    
+    <h2>A Challenge</h2>
     <p>
-      Hidden on this page are three easter eggs.  Finding them won't be too challenging for
-      a seasoned JS developer, but perhaps you're not too far past your first "Hello world."
+      Hidden on this page are <span style={{color: "#BDE666"}}>three easter eggs</span>.  Finding them won't be too challenging for
+      a seasoned <span style={{color: "#FF555D"}}>JS</span> developer, but perhaps you're not too far past your first <span style={{color: "#F6E183"}}>"Hello world."</span>
     </p>
     <p>
       If that's the case, you'll need to think about where you can talk to the browser and where it

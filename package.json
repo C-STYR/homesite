@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/C-STYR/homesite#readme",
   "dependencies": {
+    "gray-matter": "^4.0.2",
     "next": "^10.0.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"

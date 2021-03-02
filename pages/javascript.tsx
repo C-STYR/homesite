@@ -13,12 +13,11 @@ const EasterEgg2 = ({message1, message2}) => {
 
   return (
   
-  
   <div className={styles.list}>
     <Meta title="JavaScript"/>
     <h1>JavaScript</h1>
     <p>
-      <span style={{color: "#fff"}}>JavaScript</span> is arguably the most important programming language in use today,
+      <span style={{color: "#FF555D"}}>JavaScript</span> is arguably the most important programming language in use today
       because it is the language of the browser.  Without it, the internet could hardly function.
     </p>
     <p>

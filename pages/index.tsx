@@ -1,7 +1,4 @@
-import Head from 'next/head'
 import Meta from '../components/Meta'
-import Layout from '../components/Layout'
-import Link from 'next/link'
 
 const Home = () => (
 

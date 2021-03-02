@@ -3,6 +3,7 @@ import styles from '../styles/javascript.module.css'
 
 const EasterEgg2 = ({message1, message2}) => {
 
+  //dynamically generate list items?
 
   //easter egg 1
   console.log("CONGRATULATIONS, you found Easter Egg 1.") 
@@ -17,7 +18,7 @@ const EasterEgg2 = ({message1, message2}) => {
     <Meta title="JavaScript"/>
     <h1>JavaScript</h1>
     <p>
-      JavaScript is arguably the most important programming language in use today,
+      <span style={{color: "#fff"}}>JavaScript</span> is arguably the most important programming language in use today,
       because it is the language of the browser.  Without it, the internet could hardly function.
     </p>
     <p>

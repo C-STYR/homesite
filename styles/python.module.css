@@ -1,0 +1,16 @@
+.list ul li {
+  list-style: none;
+  color: #77A7FF;
+}
+
+.list li:hover {
+  text-decoration: underline;
+}
+
+.link {
+  color: #FF555D
+}
+
+.link:hover {
+  text-decoration: underline;
+}

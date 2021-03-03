@@ -18,12 +18,14 @@ const EasterEgg2 = ({message1, message2}) => {
     <h1>JavaScript</h1>
     <p>
       <span style={{color: "#FF555D"}}>JavaScript</span> is arguably the most important programming language in use today
-      because it is the language of the <span style={{color: "#BDE666"}}>browser</span>.  Without it, the internet could hardly function.
+      because it is the language of the <span style={{color: "#BDE666"}}>browser</span>.  
+      Without it, the internet could hardly function.
     </p>
     <p>
       If you'd like to learn <span style={{color: "#FF555D"}}>JavaScript</span>, here are some resources that will give you 
       a <span style={{color: "#F6E183"}}>solid foundation</span>:
     </p>
+    <br />
     <ul >
       <li>
         <a href="https://www.codecademy.com/learn/introduction-to-javascript"> ⇒ a free online course</a>
@@ -38,7 +40,7 @@ const EasterEgg2 = ({message1, message2}) => {
         <a href="http://www.pythontutor.com/javascript.html#mode=edit">⇒ a way to visualize your code as it runs line by line</a>
       </li>
     </ul>
-    
+
     <br />
     <h2>And now, a challenge:</h2>
     <p>

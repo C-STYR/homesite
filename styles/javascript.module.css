@@ -1,11 +1,10 @@
-.list {
-  /* padding-top: 5px; */
-  padding-right: 30px;
-  padding-left: 30px;
-}
 
 .list ul li {
   list-style: none;
   color: #77A7FF;
+}
+
+.list li:hover {
+  text-decoration: underline;
 }
 

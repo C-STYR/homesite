@@ -3,7 +3,7 @@ import Meta from '../components/Meta'
 const Home = () => (
 
     <div>
-      <Meta title="Index"/>
+      <Meta title="Home"/>
       <h1>Hello, there.</h1>
       <p>
         This is the personal website of Cole Styron. It isn't much to look at, I'll grant you, but perhaps 

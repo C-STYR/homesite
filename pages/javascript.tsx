@@ -4,7 +4,7 @@ import styles from '../styles/javascript.module.css'
 const EasterEgg2 = ({message1, message2}) => {
 
   //dynamically generate list items?
-  //links should open in a new tab
+  //drum sound machine
 
   //easter egg 1
   console.log("CONGRATULATIONS, you found Easter Egg 1.") 

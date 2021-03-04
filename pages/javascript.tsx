@@ -29,16 +29,16 @@ const EasterEgg2 = ({message1, message2}) => {
     <br />
     <ul >
       <li>
-        <a href="https://www.codecademy.com/learn/introduction-to-javascript"> ⇒ a free online course</a>
+        <a href="https://www.codecademy.com/learn/introduction-to-javascript" target="_blank" rel="noopener noreferrer"> ⇒ a free online course</a>
       </li>
       <li>
-        <a href="https://csx.codesmith.io/login">⇒ exercises and algorithms to hone your skills</a>
+        <a href="https://csx.codesmith.io/login" target="_blank" rel="noopener noreferrer">⇒ exercises and algorithms to hone your skills</a>
       </li>
       <li>
-        <a href="https://eloquentjavascript.net/index.html">⇒ a very thoughtful reference</a>
+        <a href="https://eloquentjavascript.net/index.html" target="_blank" rel="noopener noreferrer">⇒ a very thoughtful reference</a>
       </li>
       <li>
-        <a href="http://www.pythontutor.com/javascript.html#mode=edit">⇒ a way to visualize your code as it runs line by line</a>
+        <a href="http://www.pythontutor.com/javascript.html#mode=edit" target="_blank" rel="noopener noreferrer">⇒ a way to visualize your code as it runs line by line</a>
       </li>
     </ul>
 
@@ -50,8 +50,8 @@ const EasterEgg2 = ({message1, message2}) => {
       far past your first <span style={{color: "#D18DF0"}}>"Hello world."</span>
     </p>
     <p>
-      If that's the case, you'll need to think about where you can talk to the <span style={{color: "#BDE666"}}>browser</span> and where it
-      can talk back to you.  The first egg isn't too tough to find, but the challenges do get harder!
+      If that's the case, you'll need to think about where you can talk to the <span style={{color: "#BDE666"}}>browser</span> 
+      and where it can talk back to you.  The first egg isn't too difficult to find, but each one gets progressively harder.
     </p>
   </div>
   )

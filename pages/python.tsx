@@ -55,14 +55,14 @@ const python = () => {
     <br />
     <ul >
       <li>
-        <a href="https://wiki.python.org/moin/BeginnersGuide/Programmers"> ⇒ a comprehensive Beginner's reference, 
+        <a href="https://wiki.python.org/moin/BeginnersGuide/Programmers" target="_blank" rel="noopener noreferrer"> ⇒ a comprehensive Beginner's reference, 
         indluding several tutorials</a>
       </li>
       <li>
-        <a href="https://www.codewars.com/">⇒ algorithmic challenges (for any language)</a>
+        <a href="https://www.codewars.com/" target="_blank" rel="noopener noreferrer">⇒ algorithmic challenges (for any language)</a>
       </li>
       <li>
-        <a href="http://pythontutor.com/visualize.html#mode=edit">⇒ a way to visualize your code as it runs line by line</a>
+        <a href="http://pythontutor.com/visualize.html#mode=edit" target="_blank" rel="noopener noreferrer">⇒ a way to visualize your code as it runs line by line</a>
       </li>
     </ul>
     <br />

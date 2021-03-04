@@ -1,0 +1,14 @@
+.jlink {
+  color: #FF555D
+}
+
+.jlink:hover {
+  text-decoration: underline;
+}
+.nlink {
+  color: #BDE666
+}
+
+.nlink:hover {
+  text-decoration: underline;
+}

@@ -2,6 +2,8 @@
   height: 50px;
   padding: 10px;
   display: flex;
+  color: #FF555D;
+  background: #000E1B;
   align-items: center;
   justify-content: flex-start;
 }
@@ -15,5 +17,4 @@
 
 .nav ul li a {
   margin: 5px 15px;
-  text-decoration: none;
 }

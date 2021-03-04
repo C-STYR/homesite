@@ -1,0 +1,10 @@
+
+.list ul li {
+  list-style: none;
+  color: #77A7FF;
+}
+
+.list li:hover {
+  text-decoration: underline;
+}
+

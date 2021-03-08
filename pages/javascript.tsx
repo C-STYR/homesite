@@ -3,13 +3,9 @@ import styles from '../styles/javascript.module.css'
 
 const EasterEgg2 = ({message1, message2}) => {
 
-  //dynamically generate list items?
-  //drum sound machine
-
   //easter egg 1
   console.log("CONGRATULATIONS, you found Easter Egg 1.") 
-  console.log("Now head over to medium.com - what do you see in the console there?")
-  console.log("The web is full of secrets, so keep your eyes peeled.")
+  console.log("Now head over to medium.com - what do you see in the console there? The web is full of secrets!")
   console.log("The second easter egg is much harder to find - but don't overreact - you just need the right tools.")
 
   return (

@@ -18,9 +18,9 @@ const Home = () => (
         the <span className={style.jlink}><Link href='/javascript'>JavaScript</Link></span> page.
       </p>
       <p>
-        Like the <span style={{color: "#D18DF0"}}> colors</span> you see here? As they say, there's no accounting for taste. 
+        Like the <span  style={{color: "#D18DF0"}} > colors</span> you see here? As they say, there's no accounting for taste. 
         This palette was inspired by one of my favorite VS Code themes, 
-        <span style={{color: "#77A7FF"}}> Sarah Drasner</span>'s <span className={style.nlink}> 
+        <span style={{color: "#77A7FF"}} > Sarah Drasner</span>'s <span className={style.nlink}> 
         <Link href="https://marketplace.visualstudio.com/items?itemName=sdras.night-owl">Night Owl</Link></span>.
       </p>
     </div>
@@ -29,4 +29,3 @@ const Home = () => (
 
 export default Home
 
-//https://marketplace.visualstudio.com/items?itemName=sdras.night-owl

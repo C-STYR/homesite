@@ -1,3 +1,17 @@
 .borderCircle {
   border-radius: 9999px;
 }
+
+.imagery {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.imagery a {
+  color: #fff;
+}
+
+.imagery:hover {
+  text-decoration: underline;
+}

@@ -2,16 +2,49 @@
   border-radius: 9999px;
 }
 
-.imagery {
-  display: flex;
-  flex-direction: row;
-
+.imagery a {
+  /* color: #fff; */
 }
 
-.imagery a {
+.imagery a:hover {
+  text-decoration: underline;
+}
+
+.ghtext, .litext, .emtext{
   color: #fff;
 }
 
-.imagery:hover {
-  text-decoration: underline;
+.photo {
+  grid-area: photo;
+}
+
+.gh {
+  grid-area: gh;
+}
+.ghtext {
+  grid-area: ghtext;
+}
+
+.li {
+  grid-area: li;
+}
+.litext {
+  grid-area: litext;
+}
+
+.em {
+  grid-area: em;
+}
+.emtext {
+  grid-area: emtext;
+}
+
+.imagery {
+  display: grid;
+  grid-template-columns: 400px 100px 100px;
+  grid-template-rows: 120px 120px 120px;
+  grid-template-areas: 
+    "photo gh ghtext"
+    "photo li litext"
+    "photo em emtext"
 }

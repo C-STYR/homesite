@@ -23,11 +23,11 @@ const python = () => {
     <p>
       Outside of work, I use <span style={{color: "#BDE666"}}>Python</span> for mathematical tasks I can't 
       calculate in my head <span style={{color: "#BDE666"}}>(</span>there are no shortage of 
-      these <span style={{color: "#BDE666"}}>)</span>.
+      these<span style={{color: "#BDE666"}}>)</span>.  For example...
     </p>
     <h3>Building Loudspeakers</h3>
     <p>
-      For example, I like to build <span style={{color: "#FF555D"}}>loudspeakers</span>. If I want to calculate the port length 
+      I like to build <span style={{color: "#FF555D"}}>loudspeakers</span>. If I want to calculate the port length 
       <span style={{color: "#BDE666"}}> (</span>the port is the "hole" on the front or back of the speaker which 
       is actually the end of a long tube<span style={{color: "#BDE666"}}>)</span>, 
       I just need a few figures from the speaker design specification.
@@ -35,7 +35,7 @@ const python = () => {
     <p>
     Plugging these into a formula will give me the precise length to achieve proper tuning. Rather than get out the old
     pencil and paper, I simply wrote a <span style={{color: "#BDE666"}}> Pythonic</span> implementation of this formula. Now I
-    just plug in the variables and cut away. 
+    just plug in the variables and out pops the precise length I need to cut the port to. 
     </p>
  
     <h3>Port Length Calculator ⇒</h3>
@@ -43,8 +43,7 @@ const python = () => {
     <Gist id="f47af87c04da31253bf2f39b14966495"/>
 
     <br />
-    <p>Not very complicated, was it? But then, it didn't need to be.  I know right where it is and I don't have to look
-      up the exact formula every time I need to use it.  
+    <p>Not very complicated, was it? But then, it didn't need to be. And you only need to write it once!
     </p>
 
     <h2>Learning Python</h2>

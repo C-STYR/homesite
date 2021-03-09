@@ -1,3 +1,47 @@
 .borderCircle {
   border-radius: 9999px;
 }
+
+.imagery a:hover {
+  text-decoration: underline;
+}
+
+.ghtext, .litext, .emtext{
+  color: #fff;
+}
+
+.photo {
+  margin-left: 100px;
+  grid-area: photo;
+}
+
+.gh {
+  grid-area: gh;
+}
+.ghtext {
+  grid-area: ghtext;
+}
+
+.li {
+  grid-area: li;
+}
+.litext {
+  grid-area: litext;
+}
+
+.em {
+  grid-area: em;
+}
+.emtext {
+  grid-area: emtext;
+}
+
+.imagery {
+  display: grid;
+  grid-template-columns: 500px 100px 100px;
+  grid-template-rows: repeat(3, 118px);
+  grid-template-areas: 
+    "photo gh ghtext"
+    "photo li litext"
+    "photo em emtext"
+}

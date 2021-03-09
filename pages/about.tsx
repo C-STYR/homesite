@@ -2,9 +2,6 @@ import Meta from '../components/Meta'
 import Image from 'next/image'
 import utilStyles from '../styles/utils.module.css'
 
-//add linkedin
-//add github
-
 const about = () => (
   <div>
     <Meta title="About"/>

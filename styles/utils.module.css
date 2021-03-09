@@ -2,10 +2,6 @@
   border-radius: 9999px;
 }
 
-.imagery a {
-  /* color: #fff; */
-}
-
 .imagery a:hover {
   text-decoration: underline;
 }
@@ -15,6 +11,7 @@
 }
 
 .photo {
+  margin-left: 100px;
   grid-area: photo;
 }
 
@@ -41,8 +38,8 @@
 
 .imagery {
   display: grid;
-  grid-template-columns: 400px 100px 100px;
-  grid-template-rows: 120px 120px 120px;
+  grid-template-columns: 500px 100px 100px;
+  grid-template-rows: repeat(3, 118px);
   grid-template-areas: 
     "photo gh ghtext"
     "photo li litext"

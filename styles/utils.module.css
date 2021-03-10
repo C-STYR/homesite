@@ -1,47 +1,37 @@
-.borderCircle {
-  border-radius: 9999px;
-}
 
 .imagery a:hover {
   text-decoration: underline;
 }
 
-.ghtext, .litext, .emtext{
-  color: #fff;
-}
-
 .photo {
-  margin-left: 100px;
+  margin-left: 10px;
   grid-area: photo;
 }
 
-.gh {
-  grid-area: gh;
+.contact {
+  /* padding-top: 5px; */
+  grid-area: ct;
 }
-.ghtext {
-  grid-area: ghtext;
+
+.gh {
+  padding-top: 15px;
+  grid-area: gh;
 }
 
 .li {
+  padding-top: 15px;
   grid-area: li;
-}
-.litext {
-  grid-area: litext;
 }
 
 .em {
+  padding-top: 15px;
   grid-area: em;
 }
-.emtext {
-  grid-area: emtext;
-}
 
-.imagery {
+.contactBar {
   display: grid;
-  grid-template-columns: 500px 100px 100px;
-  grid-template-rows: repeat(3, 118px);
+  grid-template-columns: repeat(8, 133px);
+  grid-template-rows: 100px;
   grid-template-areas: 
-    "photo gh ghtext"
-    "photo li litext"
-    "photo em emtext"
+    "ct ct . . . gh li em"
 }

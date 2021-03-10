@@ -1,57 +1,57 @@
 import Meta from '../components/Meta'
 import Image from 'next/image'
-import utilStyles from '../styles/utils.module.css'
+import contactStyles from '../styles/contact.module.css'
 
 const about = () => (
   <div>
     <Meta title="Contact"/>
-    <div className ={utilStyles.contactBar}>
-      <h1 className={utilStyles.contact}>Contact</h1>
-      <div className={utilStyles.gh}>
+    <div className ={contactStyles.contactBar}>
+      <h1 className={contactStyles.contact}>Contact</h1>
+      <div className={contactStyles.gh}>
         <a href="www.github.com/C-STYR">
           <Image 
           src="/images/github_purp.png"
           alt="the github octocat"
-          width="70"
-          height="70"
+          width="50"
+          height="50"
           priority={true}
           />
         </a>
       </div>
     
-      <div className={utilStyles.li}>
+      <div className={contactStyles.li}>
         <a href="https://www.linkedin.com/in/cole-styron/">
           <Image 
           src="/images/linkedin_purp.png"
           alt="the linkedin logo"
-          width="70"
-          height="70"
+          width="50"
+          height="50"
           priority={true}
           />
         </a>
       </div>
 
-      <div className={utilStyles.em}>
+      <div className={contactStyles.em}>
         <a href="mailto: colestyron@gmail.com">
           <Image 
           src="/images/email_purp.png"
           alt="an email icon"
-          width="70"
-          height="70"
+          width="50"
+          height="50"
           priority={true}
           />
         </a>
       </div>
     </div>
-    <div className={utilStyles.imagery}>
-      <div className={utilStyles.photo}>
+    <div className={contactStyles.imagery}>
+      <div className={contactStyles.photo}>
       <Image 
       src="/images/evJump2.jpg"
       alt="A picture of me in front of Mount Everest."
       width="1250"
       height="600"
       priority={true}
-      // className={utilStyles.borderCircle}
+      // className={contactStyles.borderCircle}
       />
       </div>
     </div>

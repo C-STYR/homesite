@@ -8,6 +8,8 @@ const EasterEgg2 = ({message1, message2}) => {
   console.log("Now head over to medium.com - what do you see in the console there? The web is full of secrets!")
   console.log("The second easter egg is much harder to find - but don't overreact - you just need the right tools.")
 
+
+
   return (
   
   <div className={styles.list}>

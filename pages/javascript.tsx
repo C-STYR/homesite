@@ -40,6 +40,8 @@ const EasterEgg2 = ({message1, message2}) => {
       </li>
     </ul>
 
+
+
     <br />
     <h2>And now, a challenge:</h2>
     <p>

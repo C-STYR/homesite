@@ -2,6 +2,8 @@
 .list ul li {
   list-style: none;
   color: #77A7FF;
+  border: solid 1px;
+  border-radius: 3px;
 }
 
 .list li:hover {

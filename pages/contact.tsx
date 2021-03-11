@@ -58,8 +58,8 @@ const about = () => (
       <p>
       This is <span style={{color: "#F6E183"}}> me</span>! If you look closely, 
       you'll see that I'm <span style={{color: "#BDE666"}}> smiling</span>. 
-      I'm smiling because after walking for <span style={{color: "#77A7FF"}}> 40 or so days</span>, 
-      I can finally see<span style={{color: "#FF555D"}}> Mount Everest</span>.
+      I'm smiling because after walking for <span style={{color: "#77A7FF"}}> 40 </span> or so days 
+      from <span style={{color: "#FF555D"}}> Kangchenjunga</span>, I can finally see<span style={{color: "#FF555D"}}> Mount Everest</span>.
     </p>
   </div>
 

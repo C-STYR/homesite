@@ -1,5 +1,6 @@
 import Meta from '../components/Meta'
-import Gist from 'react-gists'
+// import Gist from 'react-gist'
+import Image from 'next/image'
 import style from '../styles/python.module.css'
 import Link from 'next/link'
 
@@ -40,7 +41,15 @@ const python = () => {
  
     <h3>Port Length Calculator ⇒</h3>
 
-    <Gist id="f47af87c04da31253bf2f39b14966495"/>
+    <div className={style.formula}>
+      <Image  
+          src="/images/PyPortLength.png"
+          alt="the github octocat"
+          width="500"
+          height="600"
+          priority={true}>
+      </Image>
+    </div>
 
     <br />
     <p>Not very complicated, was it? But then, it didn't need to be. And you only need to write it once!

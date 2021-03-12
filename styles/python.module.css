@@ -1,3 +1,4 @@
+
 .list ul li {
   list-style: none;
   color: #77A7FF;
@@ -14,3 +15,13 @@
 .link:hover {
   text-decoration: underline;
 }
+
+.formula {
+  margin: auto;
+  width: 500px;
+  padding: 10px;
+  border: 1px solid #77A7FF;
+  border-radius: 10px;
+  /* background-color: #FF555D; */
+}
+

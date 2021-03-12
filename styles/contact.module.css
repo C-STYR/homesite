@@ -1,7 +1,9 @@
 
 .photo {
-  margin-left: 80px;
-  grid-area: photo;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact {
@@ -12,22 +14,25 @@
 .gh {
   padding-top: 15px;
   grid-area: gh;
+  justify-self: end;
 }
 
 .li {
   padding-top: 15px;
   grid-area: li;
+  justify-self: end;
 }
 
 .em {
   padding-top: 15px;
   grid-area: em;
+  justify-self: end;
 }
 
 .contactBar {
   display: grid;
-  grid-template-columns: repeat(8, 136px);
+  grid-template-columns: repeat(auto, minmax(240px, 1fr));
   grid-template-rows: 100px;
   grid-template-areas: 
-    "ct ct . . . gh li em"
+    "ct ct . . gh li em"
 }

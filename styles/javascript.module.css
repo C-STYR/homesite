@@ -1,13 +1,3 @@
-$background: #001629;
-$red: #FF555D;
-$purple: #D18DF0;
-$text1: #329CBD;
-$text2: #C1EDE6;
-$lavender: #77A7FF;
-$navBackground: #000E1B;
-$yellow: #F6E183;
-$yel-grn: #BDE666;
-
 
 .buttonContainer {
   display: grid;
@@ -22,8 +12,8 @@ $yel-grn: #BDE666;
 .buttonContainer button {
   border-radius: 5px;
   text-align: center;
-  color: $text2;
-  background-color: $background;
+  color: #C1EDE6;
+  background-color: #001629;
   font-size: 16px;
 }
 
@@ -36,23 +26,23 @@ $yel-grn: #BDE666;
 .cc {
   grid-area: cc;
   line-height: 75px;
-  border: 1px solid $lavender;
+  border: 1px solid #77A7FF;
 }
 .csx {
   grid-area: csx;
   padding: 15px;
-  border: 1px solid $purple;
+  border: 1px solid #D18DF0;
 }
 
 .ej {
   grid-area: ej;
   padding: 15px;
-  border: 1px solid $red;
+  border: 1px solid #FF555D;
 }
 
 .pt {
   grid-area: pt;
   padding: 15px;
-  border: 1px solid $yel-grn;
+  border: 1px solid #BDE666;
 }
 

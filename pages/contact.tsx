@@ -43,18 +43,16 @@ const about = () => (
         </a>
       </div>
     </div>
-    <div className={contactStyles.imagery}>
       <div className={contactStyles.photo}>
-      <Image 
-      src="/images/evJump2.jpg"
-      alt="A picture of me in front of Mount Everest."
-      width="850"
-      height="400"
-      priority={true}
-      // className={contactStyles.borderCircle}
-      />
+        <Image 
+        src="/images/evJump2.jpg"
+        alt="A picture of me in front of Mount Everest."
+        width="850"
+        height="400"
+        priority={true}
+        // className={contactStyles.borderCircle}
+        />
       </div>
-    </div>
       <p>
       This is <span style={{color: "#F6E183"}}> me</span>! If you look closely, 
       you'll see that I'm <span style={{color: "#BDE666"}}> smiling</span>. 

@@ -8,7 +8,6 @@ $navBackground: #000E1B;
 $yellow: #F6E183;
 $yel-grn: #BDE666;
 
-
 .jlink {
   color: $red;
 }
@@ -26,6 +25,7 @@ $yel-grn: #BDE666;
 
 .sousContainer {
   margin-top: 100px;
+  margin-left: -100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -37,13 +37,16 @@ $yel-grn: #BDE666;
   width: 60px;
   height: 60px;
   font-size: 42px;
+  opacity: 0;
+  // border-radius: 10px;
+  // text-align: center;
 }
 
 .D:hover {
   color: #fff;
-  /* border: 1px solid red; */
+  opacity: 1;
   border-radius: 10px;
   text-align: center;
-  line-height: 60px;
+  // line-height: 60px;
 }
 

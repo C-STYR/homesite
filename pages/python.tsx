@@ -17,7 +17,7 @@ const python = () => {
     </p>
     <p>
       Before I became a full-time software engineer, I used <span style={{color: "#BDE666"}}> Python</span> for complex
-      calculations in my job as a sub-surface well-bore integrity analyst. <span style={{color: "#F6E183"}}>How boring!</span> It's much more fun to use 
+      calculations in my job as a subsurface wellbore integrity analyst. <span style={{color: "#F6E183"}}>How boring!</span> It's much more fun to use 
       <span style={{color: "#BDE666"}}> Python</span> at home.
     </p>
     <p>
@@ -35,7 +35,7 @@ const python = () => {
     <p>
     Plugging these into a formula will give me the precise length to achieve proper tuning. Rather than get out the old
     pencil and paper, I simply wrote a <span style={{color: "#BDE666"}}> Pythonic</span> implementation of this formula. Now I
-    just plug in the variables and out pops the precise length I need to cut the port to. 
+    just plug in the variables and out pops the precise length I need.
     </p>
  
     <h3>Port Length Calculator ⇒</h3>
@@ -48,9 +48,9 @@ const python = () => {
 
     <h2>Learning Python</h2>
     <p>
-      Perhaps you'd like to learn Python?  It's a great first language, as it is very intuitive and reads like plain English.
+      Perhaps you'd like to learn <span style={{color: "#BDE666"}}>Python</span>?  It's a great first language, as it is very intuitive and reads like plain English.
     </p>
-    <p>Here are some resources for the beginning Python student:</p>
+    <p>Here are some resources for the beginning <span style={{color: "#BDE666"}}>Python</span> student:</p>
     <br />
     <ul >
       <li>

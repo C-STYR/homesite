@@ -1,10 +1,48 @@
 
-.list ul li {
-  list-style: none;
-  color: #77A7FF;
+.buttonContainer {
+  display: grid;
+  grid-template-columns: auto repeat(2, 220px) auto;
+  grid-template-rows: repeat(2, 75px);
+  grid-gap: 10px;
+  grid-template-areas: 
+    ". cc ej ."
+    ". csx pt ."
 }
 
-.list li:hover {
-  text-decoration: underline;
+.buttonContainer button {
+  border-radius: 5px;
+  text-align: center;
+  color: #C1EDE6;
+  background-color: #001629;
+  font-size: 16px;
+}
+
+.buttonContainer button:hover {
+  border: 0px;
+  font-size: 18px;
+  /* text-decoration: underline; */
+}
+
+.cc {
+  grid-area: cc;
+  line-height: 75px;
+  border: 1px solid #77A7FF;
+}
+.csx {
+  grid-area: csx;
+  padding: 15px;
+  border: 1px solid#D18DF0;
+}
+
+.ej {
+  grid-area: ej;
+  padding: 15px;
+  border: 1px solid #FF555D;
+}
+
+.pt {
+  grid-area: pt;
+  padding: 15px;
+  border: 1px solid #BDE666;
 }
 

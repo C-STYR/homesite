@@ -1,0 +1,33 @@
+
+.photo {
+  /* margin-left: 10px; */
+  grid-area: photo;
+}
+
+.contact {
+  /* padding-top: 5px; */
+  grid-area: ct;
+}
+
+.gh {
+  padding-top: 15px;
+  grid-area: gh;
+}
+
+.li {
+  padding-top: 15px;
+  grid-area: li;
+}
+
+.em {
+  padding-top: 15px;
+  grid-area: em;
+}
+
+.contactBar {
+  display: grid;
+  grid-template-columns: repeat(8, 136px);
+  grid-template-rows: 100px;
+  grid-template-areas: 
+    "ct ct . . . gh li em"
+}

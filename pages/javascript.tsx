@@ -8,9 +8,11 @@ const EasterEgg2 = ({message1, message2}) => {
   console.log("Now head over to medium.com - what do you see in the console there? The web is full of secrets!")
   console.log("The second easter egg is much harder to find - but don't overreact - you just need the right tools.")
 
+
+
   return (
   
-  <div className={styles.list}>
+  <div >
     <Meta title="JavaScript"/>
     <h1>JavaScript</h1>
     <p>
@@ -23,20 +25,24 @@ const EasterEgg2 = ({message1, message2}) => {
       a <span style={{color: "#F6E183"}}>solid foundation</span>:
     </p>
     <br />
-    <ul >
-      <li>
-        <a href="https://www.codecademy.com/learn/introduction-to-javascript" target="_blank" rel="noopener noreferrer"> ⇒ a free online course</a>
-      </li>
-      <li>
-        <a href="https://csx.codesmith.io/login" target="_blank" rel="noopener noreferrer">⇒ exercises and algorithms to hone your skills</a>
-      </li>
-      <li>
-        <a href="https://eloquentjavascript.net/index.html" target="_blank" rel="noopener noreferrer">⇒ a very thoughtful reference</a>
-      </li>
-      <li>
-        <a href="http://www.pythontutor.com/javascript.html#mode=edit" target="_blank" rel="noopener noreferrer">⇒ a way to visualize your code as it runs line by line</a>
-      </li>
-    </ul>
+    <div className={styles.buttonContainer}>
+ 
+        <button className={styles.cc}>
+          <a href="https://www.codecademy.com/learn/introduction-to-javascript" target="_blank" rel="noopener noreferrer">a free online course</a>
+        </button>
+        <button className={styles.csx}>
+          <a href="https://csx.codesmith.io/login" target="_blank" rel="noopener noreferrer">exercises and algorithms to hone your skills</a>
+        </button>
+        <button className={styles.ej}>
+          <a href="https://eloquentjavascript.net/index.html" target="_blank" rel="noopener noreferrer">a very thoughtful reference</a>
+        </button>
+        <button className={styles.pt}>
+          <a href="http://www.pythontutor.com/javascript.html#mode=edit" target="_blank" rel="noopener noreferrer">visualize your code as it runs line by line</a>
+        </button>
+     
+    </div>
+
+
 
     <br />
     <h2>And now, a challenge:</h2>

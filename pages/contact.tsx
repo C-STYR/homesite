@@ -8,7 +8,7 @@ const about = () => (
     <div className ={contactStyles.contactBar}>
       <h1 className={contactStyles.contact}>Contact</h1>
       <div className={contactStyles.gh}>
-        <a href="www.github.com/C-STYR">
+        <a href="https://github.com/C-STYR">
           <Image 
           src="/images/github_purp.png"
           alt="the github octocat"

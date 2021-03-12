@@ -42,7 +42,12 @@ const Home = () => (
         <span style={{color: "#77A7FF"}} > Sarah Drasner</span>'s <span className={style.nlink}> 
         <Link href="https://marketplace.visualstudio.com/items?itemName=sdras.night-owl">Night Owl</Link></span>.
       </p>
-      <div className={style.sousContainer} style={{marginTop: "100px"}}>
+      <p>
+        If you'd like to see what I do at work, have a look at this <span className={style.alink}> 
+        <Link href="https://medium.com/swlh/3-ways-to-analyze-react-performance-with-reactime-64f6cbbf330d">article </Link></span> 
+        by one of my colleagues.
+      </p>
+      <div className={style.sousContainer} style={{marginTop: "80px"}}>
         {sous}
       </div>
       <div className={style.sousContainer}>

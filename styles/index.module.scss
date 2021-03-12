@@ -23,6 +23,14 @@ $yel-grn: #BDE666;
   text-decoration: underline;
 }
 
+.alink {
+  color: $purple;
+}
+
+.alink:hover {
+  text-decoration: underline;
+}
+
 .sousContainer {
   // margin-top: 100px;
   // margin-left: -40px;

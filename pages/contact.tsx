@@ -48,8 +48,8 @@ const about = () => (
       <Image 
       src="/images/evJump2.jpg"
       alt="A picture of me in front of Mount Everest."
-      width="1250"
-      height="600"
+      width="850"
+      height="400"
       priority={true}
       // className={contactStyles.borderCircle}
       />

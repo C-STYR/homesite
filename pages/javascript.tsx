@@ -1,5 +1,5 @@
 import Meta from '../components/Meta'
-import styles from '../styles/javascript.module.scss'
+import styles from '../styles/javascript.module.css'
 
 const EasterEgg2 = ({message1, message2}) => {
 

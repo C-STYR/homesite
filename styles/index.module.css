@@ -1,22 +1,13 @@
-$background: #001629;
-$red: #FF555D;
-$purple: #D18DF0;
-$text1: #329CBD;
-$text2: #C1EDE6;
-$lavender: #77A7FF;
-$navBackground: #000E1B;
-$yellow: #F6E183;
-$yel-grn: #BDE666;
 
 .jlink {
-  color: $red;
+  color: #FF555D;
 }
 
 .jlink:hover {
   text-decoration: underline;
 }
 .nlink {
-  color: $yel-grn
+  color:  #BDE666;
 }
 
 .nlink:hover {
@@ -24,7 +15,7 @@ $yel-grn: #BDE666;
 }
 
 .alink {
-  color: $purple;
+  color:  #D18DF0;
 }
 
 .alink:hover {
@@ -32,8 +23,6 @@ $yel-grn: #BDE666;
 }
 
 .sousContainer {
-  // margin-top: 100px;
-  // margin-left: -40px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -42,7 +31,7 @@ $yel-grn: #BDE666;
 
 
 .D {
-  color: $background;
+  color: #001629;
   width: 60px;
   height: 60px;
   font-size: 42px;

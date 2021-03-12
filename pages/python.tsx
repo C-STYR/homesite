@@ -1,5 +1,4 @@
 import Meta from '../components/Meta'
-// import Gist from 'react-gist'
 import Image from 'next/image'
 import style from '../styles/python.module.css'
 import Link from 'next/link'

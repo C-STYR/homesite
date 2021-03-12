@@ -1,6 +1,6 @@
 import Meta from '../components/Meta'
 import Link from 'next/link'
-import style from '../styles/index.module.scss'
+import style from '../styles/index.module.css'
 
 const colors: string[] = ["#D18DF0", " #F6E183", " #BDE666", " #FF555D", " #77A7FF"]
 

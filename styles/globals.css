@@ -1,3 +1,5 @@
+/* Colors
+
 $background: #001629;
 $red: #FF555D;
 $purple: #D18DF0;
@@ -8,14 +10,16 @@ $navBackground: #000E1B;
 $yellow: #F6E183;
 $yel-grn: #BDE666;
 
+*/
+
 
 html, 
 body {
   padding: 0;
   margin: 0;
   font-family: Open Sans;
-  background: $background;
-  color: $text1;
+  background: #001629;
+  color:  #329CBD;
 }
 
 a {
@@ -24,6 +28,6 @@ a {
 }
 
 h1, h2, h3 {
-  color: $purple;
+  color: #D18DF0;
 }
 

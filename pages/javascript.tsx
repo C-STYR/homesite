@@ -27,18 +27,18 @@ const EasterEgg2 = ({message1, message2}) => {
     <br />
     <div className={styles.buttonContainer}>
  
-        <span className={styles.cc}>
+        <button className={styles.cc}>
           <a href="https://www.codecademy.com/learn/introduction-to-javascript" target="_blank" rel="noopener noreferrer">a free online course</a>
-        </span>
-        <span className={styles.csx}>
+        </button>
+        <button className={styles.csx}>
           <a href="https://csx.codesmith.io/login" target="_blank" rel="noopener noreferrer">exercises and algorithms to hone your skills</a>
-        </span>
-        <span className={styles.ej}>
+        </button>
+        <button className={styles.ej}>
           <a href="https://eloquentjavascript.net/index.html" target="_blank" rel="noopener noreferrer">a very thoughtful reference</a>
-        </span>
-        <span className={styles.pt}>
+        </button>
+        <button className={styles.pt}>
           <a href="http://www.pythontutor.com/javascript.html#mode=edit" target="_blank" rel="noopener noreferrer">visualize your code as it runs line by line</a>
-        </span>
+        </button>
      
     </div>
 

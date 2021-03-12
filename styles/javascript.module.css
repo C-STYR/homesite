@@ -9,10 +9,18 @@
     ". csx pt ."
 }
 
-.buttonContainer span {
+.buttonContainer button {
   border-radius: 5px;
   text-align: center;
   color: #C1EDE6;
+  background-color: #001629;
+  font-size: 16px;
+}
+
+.buttonContainer button:hover {
+  border: 0px;
+  font-size: 18px;
+  /* text-decoration: underline; */
 }
 
 .cc {

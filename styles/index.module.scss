@@ -1,0 +1,49 @@
+$background: #001629;
+$red: #FF555D;
+$purple: #D18DF0;
+$text1: #329CBD;
+$text2: #C1EDE6;
+$lavender: #77A7FF;
+$navBackground: #000E1B;
+$yellow: #F6E183;
+$yel-grn: #BDE666;
+
+
+.jlink {
+  color: $red;
+}
+
+.jlink:hover {
+  text-decoration: underline;
+}
+.nlink {
+  color: $yel-grn
+}
+
+.nlink:hover {
+  text-decoration: underline;
+}
+
+.sousContainer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.D {
+  color: $background;
+  width: 60px;
+  height: 60px;
+  font-size: 42px;
+}
+
+.D:hover {
+  color: #fff;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  text-align: center;
+  line-height: 60px;
+}
+

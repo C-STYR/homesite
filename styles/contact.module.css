@@ -1,6 +1,6 @@
 
 .photo {
-  margin-left: 80px;
+  /* margin-left: 80px; */
   grid-area: photo;
 }
 
@@ -26,7 +26,7 @@
 
 .contactBar {
   display: grid;
-  grid-template-columns: repeat(8, 136px);
+  grid-template-columns: repeat(8, 1fr);
   grid-template-rows: 100px;
   grid-template-areas: 
     "ct ct . . . gh li em"

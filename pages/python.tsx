@@ -40,14 +40,16 @@ const python = () => {
  
     <h3>Port Length Calculator ⇒</h3>
 
-    <div className={style.formula}>
-      <Image  
-          src="/images/PyPortLength.png"
-          alt="the github octocat"
-          width="500"
-          height="600"
-          priority={true}>
-      </Image>
+    <div className={style.imgContainer}>
+      <div className={style.formula}>
+        <Image  
+            src="/images/PyPortLength.png"
+            alt="a picture of a mathematical formula"
+            width="500"
+            height="600"
+            priority={true}>
+        </Image>
+      </div>
     </div>
 
     <br />

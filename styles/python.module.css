@@ -16,9 +16,18 @@
   text-decoration: underline;
 }
 
+.imgContainer {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  ". pic ."
+}
+
 .formula {
   margin: auto;
-  width: 500px;
+  /* width: 500px; */
+  grid-area: pic;
   padding: 10px;
   border: 1px solid #77A7FF;
   border-radius: 10px;

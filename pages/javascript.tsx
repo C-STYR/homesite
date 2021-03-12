@@ -54,8 +54,12 @@ const EasterEgg2 = ({message1, message2}) => {
       far past your first <span style={{color: "#D18DF0"}}>"Hello world."</span>
     </p>
     <p>
-      If that's the case, you'll need to think about where you can talk to the <span style={{color: "#BDE666"}}>browser</span> 
+      If that's the case, you'll need to think about where you can talk to the <span style={{color: "#BDE666"}}>browser </span> 
       and where it can talk back to you.  The first egg isn't too difficult to find, but each one gets progressively harder.
+    </p>
+    <p>
+      Also, please note, the <span style={{color: "#BDE666"}}>eggs </span> can only be found on 
+      <span style={{color: "#FF555D"}}> desktop</span> except by the most courageous hunters.
     </p>
   </div>
   )
